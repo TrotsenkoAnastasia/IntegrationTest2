@@ -50,12 +50,12 @@ const Add = () => {
         name="price"
         onChange={handleChange}
       />
-      {/* <input
+      <input
         type="text"
         placeholder="Book cover"
         name="cover"
         onChange={handleChange}
-      /> */}
+      />
       <button onClick={handleClick}>Add</button>
       {error && "Something went wrong!"}
       <Link to="/">See all books</Link>
